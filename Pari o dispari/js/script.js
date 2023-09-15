@@ -2,14 +2,15 @@
 
 const chooseUser = prompt('Scegli tra pari o dispari')
 
-let message = document.getElementById(output);
+let message = document.getElementById('output');
 
-if(chooseUser !== 'pari' && chooseUser !== 'dispari') console.log('Devi inserire "pari" o "dispari"')
+if(chooseUser !== 'pari' && chooseUser !== 'dispari') message.innerHTML = 'Devi inserire "pari" o "dispari"'
+
 else{
   const nUser =  parseInt(prompt('Scegli un numero tra 1 e 5'))
 
 //2. Inserisco un controllo per verificare se l'utente abbia inserito un numero e una stringa e successivamente che sia compreso tra 1 e 5.
-  if(isNaN(nUser)) console.log('Inserire un valore numerico')
+  if(isNaN(nUser)) message.innerHTML = 'Inserire un valore numerico'
   if(nUser > 0 && nUser < 6){
     console.log('Numero user -->' + ' ' + nUser);
 
