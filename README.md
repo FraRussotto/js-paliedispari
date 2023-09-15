@@ -17,5 +17,13 @@ Buon lavoro e buon divertimento!
 
 ### Svolgimento logico - Esercizio "Palindroma"
 
-Trattare la parola inserita dall'utente con un array e tramite 2 contatori, confrontare le lettere partendo da indice iniziale con quello finale per poi confrontare indice inziale +1 con quello finale -1 e così via finchè una condizione flag è soddisfata.
+Trattare la parola inserita dall'utente come un array e tramite 1 contatore, confrontare le lettere partendo da indice iniziale con quello finale sottraendo l'indice iniziale per poi confrontare indice inziale +1 con quello finale -1 e così via finchè la condizione flag è soddisfatta.
 Se la condizione flag è soddisfatta fino a indice iniziale < indice max, la parola è palindroma altrimenti no.
+
+### Svolgimento logico - Esercizio "Pari e dispari"
+
+Creare l'inserimento della scelta tra pari o dispari per l'utente e l'inserimento del numero da 1 a 5.
+Creare l'input random del pc tramite la funzione math.random.
+Stabilire il vincente attraverso il controllo sulla somma dei 2 numeri per vededre se è pari o dispari attraverso una seconda funzione.
+
+
