@@ -24,6 +24,12 @@ const word = prompt('Inserisci la parola da analizzare');
 const result = wordPalindrome(word);
 let message = document.getElementById('output');
 
+//7. Stampo il risultato dell'analisi.
+if(result) message.innerHTML = 'La parola è palindroma';
+else message.innerHTML = 'La parola non è palindroma';
+
+
+// Funzioni
 
 function wordPalindrome(word){
   let i = 0;
@@ -38,8 +44,3 @@ function wordPalindrome(word){
   
   return palindrome;
 }
-
-//7. Stampo il risultato dell'analisi.
-
-if(result) message.innerHTML = 'La parola è palindroma';
-else message.innerHTML = 'La parola non è palindroma';
